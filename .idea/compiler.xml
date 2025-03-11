@@ -8,6 +8,9 @@
       <module name="lab3" target="23" />
       <module name="lab3.main" target="23" />
       <module name="lab3.test" target="23" />
+      <module name="lab3inclass" target="23" />
+      <module name="lab3inclass.main" target="23" />
+      <module name="lab3inclass.test" target="23" />
     </bytecodeTargetLevel>
   </component>
 </project>
