@@ -1,4 +1,4 @@
-package cs.ubb.model;
+package model;
 
 public class Ticket extends Entity<Long> {
     private String name;

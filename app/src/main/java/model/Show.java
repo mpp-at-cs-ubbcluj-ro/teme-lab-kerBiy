@@ -1,4 +1,4 @@
-package cs.ubb.model;
+package model;
 
 import java.util.Date;
 

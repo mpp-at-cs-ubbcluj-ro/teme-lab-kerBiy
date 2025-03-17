@@ -1,4 +1,4 @@
-package cs.ubb.model;
+package model;
 
 public abstract class Entity<ID> {
     protected ID id;

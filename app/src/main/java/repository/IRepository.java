@@ -1,7 +1,7 @@
-package cs.ubb.repository;
+package repository;
 
 import java.util.Optional;
-import cs.ubb.model.Entity;
+import model.Entity;
 
 public interface IRepository<ID, E extends Entity<ID>> {
         Optional<E> findOne(ID id);

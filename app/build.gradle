@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'cs.ubb'
-version = '1.0'
+version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -16,7 +16,7 @@ dependencies {
 }
 
 application {
-    mainClass = 'cs.ubb.Main'
+    mainClass = 'Main'
 }
 
 test {

@@ -1,4 +1,4 @@
-package cs.ubb.model;
+package model;
 
 public class Employee extends Entity<Long> {
     private String username;
