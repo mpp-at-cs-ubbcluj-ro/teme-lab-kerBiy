@@ -1,0 +1,99 @@
+18 Mar 2025 10:44:19,186 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+18 Mar 2025 10:44:19,188 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 10:44:19,188 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 10:44:19,189 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 10:44:19,190 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 10:44:19,190 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 10:44:19,463 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a4f1a55)
+18 Mar 2025 10:44:19,473 TRACE repository.ShowRepository 45 findAll - Enter
+18 Mar 2025 10:44:19,473 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 10:44:19,474 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 10:44:19,474 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 10:44:19,475 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 10:44:19,475 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 10:44:19,476 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38145825)
+18 Mar 2025 10:44:19,482 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}])
+18 Mar 2025 10:44:19,484 TRACE repository.ShowRepository 24 findOne - Enter findOne(4)
+18 Mar 2025 10:44:19,485 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 10:44:19,485 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 10:44:19,485 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 10:44:19,485 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 10:44:19,486 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 10:44:19,486 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c9b0314)
+18 Mar 2025 10:44:19,487 TRACE repository.ShowRepository 32 findOne - Exit with(Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4})
+18 Mar 2025 10:44:19,487 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=100, id=4})
+18 Mar 2025 10:44:19,488 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 10:44:19,488 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 10:44:19,488 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 10:44:19,488 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 10:44:19,489 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 10:44:19,489 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45385f75)
+18 Mar 2025 10:44:19,490 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=100, id=4})
+18 Mar 2025 10:44:19,490 TRACE repository.ShowRepository 24 findOne - Enter findOne(4)
+18 Mar 2025 10:44:19,491 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 10:44:19,491 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 10:44:19,491 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 10:44:19,491 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 10:44:19,491 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 10:44:19,491 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49c90a9c)
+18 Mar 2025 10:44:19,492 TRACE repository.ShowRepository 32 findOne - Exit with(Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4})
+18 Mar 2025 10:50:00,232 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+18 Mar 2025 10:50:00,234 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 10:50:00,234 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 10:50:00,235 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 10:50:00,235 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 10:50:00,235 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 10:50:00,683 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a4f1a55)
+18 Mar 2025 10:50:00,696 TRACE repository.ShowRepository 45 findAll - Enter
+18 Mar 2025 10:50:00,696 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 10:50:00,696 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 10:50:00,696 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 10:50:00,697 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 10:50:00,697 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 10:50:00,698 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38145825)
+18 Mar 2025 10:50:00,706 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}])
+18 Mar 2025 10:58:21,782 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+18 Mar 2025 10:58:21,784 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 10:58:21,784 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 10:58:21,785 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 10:58:21,785 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 10:58:21,786 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 10:58:22,195 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7dfd3c81)
+18 Mar 2025 10:58:22,207 TRACE repository.ShowRepository 45 findAll - Enter
+18 Mar 2025 10:58:22,207 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 10:58:22,208 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 10:58:22,208 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 10:58:22,209 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 10:58:22,209 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 10:58:22,210 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41330d4f)
+18 Mar 2025 10:58:22,217 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}])
+18 Mar 2025 11:00:56,246 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+18 Mar 2025 11:00:56,248 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 11:00:56,249 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 11:00:56,249 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 11:00:56,250 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 11:00:56,250 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 11:00:56,518 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7dfd3c81)
+18 Mar 2025 11:00:56,525 TRACE repository.ShowRepository 45 findAll - Enter
+18 Mar 2025 11:00:56,525 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 11:00:56,525 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 11:00:56,525 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 11:00:56,526 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 11:00:56,526 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 11:00:56,526 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41330d4f)
+18 Mar 2025 11:00:56,533 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}])
+18 Mar 2025 11:04:16,827 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+18 Mar 2025 11:04:16,830 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 11:04:16,830 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 11:04:16,831 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 11:04:16,831 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 11:04:16,832 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 11:04:17,104 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7dfd3c81)
+18 Mar 2025 11:04:17,111 TRACE repository.ShowRepository 45 findAll - Enter
+18 Mar 2025 11:04:17,112 TRACE utils.Jdbc 48 getConnection - Enter
+18 Mar 2025 11:04:17,112 TRACE utils.Jdbc 25 getNewConnection - Enter
+18 Mar 2025 11:04:17,112 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+18 Mar 2025 11:04:17,112 INFO  utils.Jdbc 31 getNewConnection - user: null
+18 Mar 2025 11:04:17,112 INFO  utils.Jdbc 32 getNewConnection - pass: null
+18 Mar 2025 11:04:17,113 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41330d4f)
+18 Mar 2025 11:04:17,120 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=8}])

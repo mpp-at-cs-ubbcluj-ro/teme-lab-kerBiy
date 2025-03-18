@@ -1,16 +1,15 @@
 package repository;
 
 import java.util.Optional;
-import model.Entity;
 
-public interface IRepository<ID, E extends Entity<ID>> {
-        Optional<E> findOne(ID id);
+public interface IRepository<ID, E> {
+    Optional<E> findOne(ID id);
 
-        Iterable<E> findAll();
+    Iterable<E> findAll();
 
-        Optional<E> save(E entity);
+    Optional<E> save(E entity);
 
-        Optional<E> delete(ID id);
+    Optional<E> delete(ID id);
 
-        Optional<E> update(E entity);
+    Optional<E> update(E entity);
 }
