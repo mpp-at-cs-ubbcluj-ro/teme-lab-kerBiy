@@ -11,12 +11,12 @@ public class Show implements Identifiable<Long> {
     private Integer soldSeats;
 
 
-    public Show(String artist, Date date, String location, Integer totalSeats) {
+    public Show(String artist, Date date, String location, Integer totalSeats, Integer soldSeats) {
         this.artist = artist;
         this.date = date;
         this.location = location;
         this.totalSeats = totalSeats;
-        this.soldSeats = 0;
+        this.soldSeats = soldSeats;
     }
 
     @Override

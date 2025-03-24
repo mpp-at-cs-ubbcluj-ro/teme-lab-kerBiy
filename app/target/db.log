@@ -97,3 +97,522 @@
 18 Mar 2025 11:04:17,112 INFO  utils.Jdbc 32 getNewConnection - pass: null
 18 Mar 2025 11:04:17,113 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41330d4f)
 18 Mar 2025 11:04:17,120 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=8}])
+23 Mar 2025 18:39:16,060 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+23 Mar 2025 18:39:17,079 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+23 Mar 2025 18:39:17,081 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+23 Mar 2025 18:39:47,490 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+23 Mar 2025 18:39:47,492 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+23 Mar 2025 18:39:47,493 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+23 Mar 2025 18:40:40,691 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+23 Mar 2025 18:40:40,693 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+23 Mar 2025 18:40:40,694 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+23 Mar 2025 18:40:46,751 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:40:46,752 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:40:46,753 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:40:46,755 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:40:46,755 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:40:46,756 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:40:47,020 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2031717a)
+23 Mar 2025 18:40:47,027 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:40:49,347 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:40:49,347 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:40:49,348 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:40:49,348 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:40:49,349 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:40:49,349 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:40:49,350 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@12971a25)
+23 Mar 2025 18:40:49,352 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:43:00,384 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+23 Mar 2025 18:43:00,386 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+23 Mar 2025 18:43:00,387 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+23 Mar 2025 18:43:09,465 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:43:09,466 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:43:09,466 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:43:09,468 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:43:09,468 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:43:09,468 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:43:09,776 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@9a59cac)
+23 Mar 2025 18:43:09,786 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:43:13,730 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:43:13,731 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:43:13,731 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:43:13,731 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:43:13,732 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:43:13,732 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:43:13,734 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61e6dcde)
+23 Mar 2025 18:43:13,735 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:43:16,613 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:43:16,614 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:43:16,614 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:43:16,615 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:43:16,615 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:43:16,615 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:43:16,616 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@310b87fd)
+23 Mar 2025 18:43:16,617 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:44:40,644 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+23 Mar 2025 18:44:40,646 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+23 Mar 2025 18:44:40,646 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+23 Mar 2025 18:44:48,320 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:44:48,321 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:44:48,321 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:44:48,323 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:44:48,325 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:44:48,325 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:44:48,589 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2031717a)
+23 Mar 2025 18:44:48,592 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:47:50,983 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+23 Mar 2025 18:47:50,986 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+23 Mar 2025 18:47:50,987 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+23 Mar 2025 18:48:00,537 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:48:00,538 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:48:00,538 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:48:00,540 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:48:00,541 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:48:00,541 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:48:00,858 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ebbc878)
+23 Mar 2025 18:48:00,870 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:49:04,206 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+23 Mar 2025 18:49:04,209 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+23 Mar 2025 18:49:04,209 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+23 Mar 2025 18:49:10,237 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:49:10,239 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:49:10,239 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:49:10,242 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:49:10,243 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:49:10,244 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:49:10,503 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ebbc878)
+23 Mar 2025 18:49:10,508 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:49:15,050 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:49:15,051 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:49:15,051 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:49:15,051 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:49:15,052 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:49:15,052 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:49:15,054 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c750502)
+23 Mar 2025 18:49:15,055 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:52:08,586 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+23 Mar 2025 18:52:08,588 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+23 Mar 2025 18:52:08,589 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+23 Mar 2025 18:52:14,254 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:52:14,255 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:52:14,255 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:52:14,257 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:52:14,257 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:52:14,258 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:52:14,685 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2031717a)
+23 Mar 2025 18:52:14,690 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:52:48,948 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+23 Mar 2025 18:52:48,950 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+23 Mar 2025 18:52:48,950 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+23 Mar 2025 18:52:57,933 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:52:57,933 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:52:57,934 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:52:57,934 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:52:57,935 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:52:57,935 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:52:58,166 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61e6dcde)
+23 Mar 2025 18:52:58,169 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:56:59,843 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+23 Mar 2025 18:56:59,846 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+23 Mar 2025 18:56:59,846 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+23 Mar 2025 18:57:08,009 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 18:57:08,010 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:57:08,010 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:57:08,012 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:57:08,013 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:57:08,013 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:57:08,302 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@13ace40e)
+23 Mar 2025 18:57:08,311 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:57:08,334 TRACE repository.ShowRepository 45 findAll - Enter
+23 Mar 2025 18:57:08,334 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 18:57:08,335 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 18:57:08,335 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 18:57:08,335 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 18:57:08,335 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 18:57:08,335 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@151b7a05)
+23 Mar 2025 18:57:08,340 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=8}])
+23 Mar 2025 20:48:48,285 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+23 Mar 2025 20:48:48,288 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+23 Mar 2025 20:48:48,288 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+23 Mar 2025 20:48:57,858 TRACE repository.EmployeeRepository 45 findAll - Enter
+23 Mar 2025 20:48:57,859 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 20:48:57,860 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 20:48:57,862 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 20:48:57,862 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 20:48:57,863 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 20:48:58,117 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@18d68f58)
+23 Mar 2025 20:48:58,121 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 20:48:58,150 TRACE repository.ShowRepository 45 findAll - Enter
+23 Mar 2025 20:48:58,150 TRACE utils.Jdbc 48 getConnection - Enter
+23 Mar 2025 20:48:58,150 TRACE utils.Jdbc 25 getNewConnection - Enter
+23 Mar 2025 20:48:58,150 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+23 Mar 2025 20:48:58,150 INFO  utils.Jdbc 31 getNewConnection - user: null
+23 Mar 2025 20:48:58,150 INFO  utils.Jdbc 32 getNewConnection - pass: null
+23 Mar 2025 20:48:58,151 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ab308e9)
+23 Mar 2025 20:48:58,154 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=8}])
+24 Mar 2025 10:56:24,671 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 10:56:24,674 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 10:56:24,674 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 10:56:31,287 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 10:56:31,289 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 10:56:31,289 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 10:56:31,292 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 10:56:31,293 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 10:56:31,293 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 10:56:31,542 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@727f31d5)
+24 Mar 2025 10:56:31,545 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 10:56:31,565 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 10:56:31,565 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 10:56:31,566 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 10:56:31,566 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 10:56:31,566 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 10:56:31,566 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 10:56:31,567 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6952258)
+24 Mar 2025 10:56:31,571 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 12:57:12,348 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 12:57:12,351 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 12:57:12,352 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 12:57:19,360 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 12:57:19,362 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 12:57:19,363 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 12:57:19,365 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 12:57:19,365 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 12:57:19,366 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 12:57:19,785 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ee861f5)
+24 Mar 2025 12:57:19,792 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 12:57:19,824 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 12:57:19,824 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 12:57:19,825 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 12:57:19,825 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 12:57:19,825 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 12:57:19,825 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 12:57:19,826 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40e9da8a)
+24 Mar 2025 12:57:19,829 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:06:18,412 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:06:18,415 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:06:18,415 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:07:11,359 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:07:11,362 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:07:11,363 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:08:42,788 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:08:42,791 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:08:42,792 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:08:53,378 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:08:53,380 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:08:53,380 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:08:53,383 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:08:53,383 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:08:53,384 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:08:53,912 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61f2140e)
+24 Mar 2025 13:08:53,919 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:11:00,209 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:11:00,211 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:11:00,212 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:11:05,391 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:11:05,393 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:11:05,393 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:11:05,395 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:11:05,396 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:11:05,396 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:11:05,745 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@589adb2)
+24 Mar 2025 13:11:05,749 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:11:05,774 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:11:05,774 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:11:05,774 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:11:05,775 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:11:05,775 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:11:05,775 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:11:05,775 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b20dd1b)
+24 Mar 2025 13:11:05,778 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:12:52,485 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:12:52,487 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:12:52,488 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:12:58,840 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:12:58,842 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:12:58,842 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:12:58,844 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:12:58,845 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:12:58,845 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:12:59,236 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a6406d)
+24 Mar 2025 13:12:59,247 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:13:01,685 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:13:01,686 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:13:01,687 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:13:01,687 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:13:01,687 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:13:01,688 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:13:01,689 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@629a2987)
+24 Mar 2025 13:13:01,691 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:13:01,732 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:13:01,732 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:13:01,732 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:13:01,732 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:13:01,732 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:13:01,733 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:13:01,733 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@611106aa)
+24 Mar 2025 13:13:01,738 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:28:56,789 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:28:56,792 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:28:56,793 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:30:09,294 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:30:09,296 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:30:09,296 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:30:15,218 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:30:15,219 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:30:15,219 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:30:15,221 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:30:15,221 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:30:15,221 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:30:15,698 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a6406d)
+24 Mar 2025 13:30:15,701 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:31:06,250 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:31:06,253 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:31:06,253 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:31:25,357 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:31:25,359 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:31:25,359 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:31:25,362 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:31:25,362 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:31:25,363 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:31:25,734 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ebecd34)
+24 Mar 2025 13:31:25,742 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:31:25,784 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:31:25,785 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:31:25,785 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:31:25,785 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:31:25,785 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:31:25,785 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:31:25,786 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@631ad950)
+24 Mar 2025 13:31:25,789 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:37:01,099 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:37:01,103 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:37:01,104 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:37:06,029 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:37:06,031 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:37:06,031 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:37:06,035 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:37:06,036 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:37:06,036 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:37:06,544 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5faf0ee)
+24 Mar 2025 13:37:06,556 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:37:06,602 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:37:06,602 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:37:06,603 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:37:06,603 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:37:06,603 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:37:06,603 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:37:06,603 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d13e9d5)
+24 Mar 2025 13:37:06,607 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:37:13,339 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='alex', numberOfSeats=2, showId=9, id=null})
+24 Mar 2025 13:37:13,340 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:37:13,340 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:37:13,340 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:37:13,341 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:37:13,341 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:37:13,342 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@147d95bc)
+24 Mar 2025 13:37:13,354 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='alex', numberOfSeats=2, showId=9, id=13})
+24 Mar 2025 13:37:13,355 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=2, id=9})
+24 Mar 2025 13:37:13,355 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:37:13,356 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:37:13,356 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:37:13,356 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:37:13,356 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:37:13,357 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5755caf3)
+24 Mar 2025 13:37:13,359 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=2, id=9})
+24 Mar 2025 13:37:14,984 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:37:14,984 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:37:14,985 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:37:14,985 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:37:14,985 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:37:14,986 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:37:14,986 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7884e513)
+24 Mar 2025 13:37:14,988 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:37:28,674 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:37:28,676 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:37:28,676 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:37:28,676 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:37:28,677 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:37:28,677 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:37:28,679 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b0c0317)
+24 Mar 2025 13:37:28,680 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:37:28,697 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:37:28,697 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:37:28,697 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:37:28,698 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:37:28,698 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:37:28,698 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:37:28,699 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@478e49a1)
+24 Mar 2025 13:37:28,700 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:40:18,338 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:40:18,340 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:40:18,340 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:40:21,711 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:40:21,712 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:40:21,713 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:40:21,715 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:40:21,715 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:40:21,716 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:40:22,068 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d43743b)
+24 Mar 2025 13:40:22,081 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:40:22,112 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:40:22,112 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:40:22,113 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:40:22,113 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:40:22,113 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:40:22,113 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:40:22,113 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@11a2ae00)
+24 Mar 2025 13:40:22,118 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=2, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:40:36,605 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='mike', numberOfSeats=1, showId=9, id=null})
+24 Mar 2025 13:40:36,606 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:40:36,606 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:40:36,606 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:40:36,607 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:40:36,607 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:40:36,608 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@147d95bc)
+24 Mar 2025 13:40:36,623 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='mike', numberOfSeats=1, showId=9, id=14})
+24 Mar 2025 13:40:36,623 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9})
+24 Mar 2025 13:40:36,623 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:40:36,623 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:40:36,624 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:40:36,624 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:40:36,624 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:40:36,625 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5755caf3)
+24 Mar 2025 13:40:36,626 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9})
+24 Mar 2025 13:40:37,514 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:40:37,514 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:40:37,515 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:40:37,515 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:40:37,515 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:40:37,515 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:40:37,516 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@122981c6)
+24 Mar 2025 13:40:37,517 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:43:28,321 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:43:28,323 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:43:28,323 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:43:33,110 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:43:33,111 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:43:33,111 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:43:33,113 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:43:33,114 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:43:33,114 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:43:33,519 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5faf0ee)
+24 Mar 2025 13:43:33,524 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:43:33,558 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:43:33,559 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:43:33,559 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:43:33,559 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:43:33,559 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:43:33,559 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:43:33,560 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f7036e3)
+24 Mar 2025 13:43:33,563 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:45:18,939 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:45:18,941 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:45:18,942 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:45:24,743 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:45:24,744 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:45:24,745 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:45:24,747 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:45:24,747 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:45:24,748 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:45:25,137 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ebecd34)
+24 Mar 2025 13:45:25,142 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:45:25,176 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:45:25,176 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:45:25,176 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:45:25,176 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:45:25,177 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:45:25,177 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:45:25,177 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@631ad950)
+24 Mar 2025 13:45:25,180 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:45:48,106 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:45:48,107 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:45:48,107 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:45:48,107 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:45:48,107 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:45:48,108 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:45:48,109 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6464c9b0)
+24 Mar 2025 13:45:48,110 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:45:48,122 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:45:48,122 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:45:48,122 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:45:48,122 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:45:48,123 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:45:48,123 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:45:48,124 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1abfb29f)
+24 Mar 2025 13:45:48,125 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:46:32,784 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:46:32,787 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:46:32,788 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:46:36,510 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:46:36,512 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:46:36,512 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:46:36,515 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:46:36,515 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:46:36,516 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:46:36,869 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d43743b)
+24 Mar 2025 13:46:36,875 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:46:36,907 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:46:36,907 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:46:36,907 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:46:36,907 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:46:36,907 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:46:36,907 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:46:36,908 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@534a09ba)
+24 Mar 2025 13:46:36,910 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:46:53,866 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:46:53,868 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:46:53,869 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:46:56,977 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:46:56,979 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:46:56,979 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:46:56,982 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:46:56,982 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:46:56,983 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:46:57,239 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5faf0ee)
+24 Mar 2025 13:46:57,243 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:46:57,280 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:46:57,280 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:46:57,280 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:46:57,281 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:46:57,281 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:46:57,281 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:46:57,281 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d13e9d5)
+24 Mar 2025 13:46:57,285 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:48:30,217 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:48:30,220 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:48:30,221 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:48:34,074 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:48:34,075 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:48:34,075 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:48:34,077 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:48:34,078 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:48:34,078 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:48:34,650 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5faf0ee)
+24 Mar 2025 13:48:34,665 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:48:34,698 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:48:34,698 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:48:34,698 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:48:34,698 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:48:34,699 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:48:34,699 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:48:34,699 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f7036e3)
+24 Mar 2025 13:48:34,703 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:49:35,797 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 13:49:35,801 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 13:49:35,801 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 13:49:39,409 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 13:49:39,412 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:49:39,412 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:49:39,414 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:49:39,415 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:49:39,415 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:49:39,819 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ebecd34)
+24 Mar 2025 13:49:39,825 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:49:39,857 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 13:49:39,858 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 13:49:39,858 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 13:49:39,858 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 13:49:39,858 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 13:49:39,858 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 13:49:39,859 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@631ad950)
+24 Mar 2025 13:49:39,861 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])

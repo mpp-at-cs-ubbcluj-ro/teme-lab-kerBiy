@@ -8,7 +8,7 @@
         <File name="log" fileName="target/db.log" append="true">
             <PatternLayout pattern="%d{DATE} %-5level %class{36} %L %M - %msg%n"/>
         </File>
-        c
+
     </Appenders>
     <Loggers>
         <Root level="trace">

@@ -135,7 +135,8 @@ public class ShowRepository implements IShowRepository {
                 rs.getString("artist"),
                 rs.getDate("date"),
                 rs.getString("location"),
-                rs.getInt("totalSeats")
+                rs.getInt("totalSeats"),
+                rs.getInt("soldSeats")
         );
         show.setId(rs.getLong("id"));
         return show;
