@@ -616,3 +616,366 @@
 24 Mar 2025 13:49:39,858 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:49:39,859 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@631ad950)
 24 Mar 2025 13:49:39,861 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 23:52:16,859 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 23:52:18,704 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 23:52:19,660 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 23:52:28,084 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 23:52:28,084 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 23:52:28,084 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 23:52:28,085 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 23:52:28,086 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 23:52:28,086 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 23:52:29,033 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d43743b)
+24 Mar 2025 23:52:29,040 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 23:52:29,644 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 23:52:29,645 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 23:52:29,645 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 23:52:29,645 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 23:52:29,645 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 23:52:29,645 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 23:52:29,646 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@11a2ae00)
+24 Mar 2025 23:52:29,649 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 23:52:48,037 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='alex', numberOfSeats=3, showId=13, id=null})
+24 Mar 2025 23:52:48,038 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 23:52:48,039 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 23:52:48,039 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 23:52:48,039 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 23:52:48,040 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 23:52:48,041 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6aa4448b)
+24 Mar 2025 23:52:48,051 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='alex', numberOfSeats=3, showId=13, id=15})
+24 Mar 2025 23:52:48,052 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13})
+24 Mar 2025 23:52:48,052 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 23:52:48,052 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 23:52:48,052 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 23:52:48,053 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 23:52:48,053 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 23:52:48,053 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77b93730)
+24 Mar 2025 23:52:48,055 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13})
+24 Mar 2025 23:52:49,423 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 23:52:49,423 TRACE utils.Jdbc 48 getConnection - Enter
+24 Mar 2025 23:52:49,423 TRACE utils.Jdbc 25 getNewConnection - Enter
+24 Mar 2025 23:52:49,424 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 23:52:49,424 INFO  utils.Jdbc 31 getNewConnection - user: null
+24 Mar 2025 23:52:49,424 INFO  utils.Jdbc 32 getNewConnection - pass: null
+24 Mar 2025 23:52:49,425 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e9e493e)
+24 Mar 2025 23:52:49,426 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+24 Mar 2025 23:55:46,501 TRACE utils.Jdbc 23 createNewConnection - Enter
+24 Mar 2025 23:55:46,503 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 23:55:46,503 INFO  utils.Jdbc 30 createNewConnection - user: null
+24 Mar 2025 23:55:46,503 INFO  utils.Jdbc 31 createNewConnection - pass: null
+24 Mar 2025 23:55:46,727 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 23:55:46,728 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 23:55:46,729 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 23:55:52,542 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 23:55:52,548 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 23:55:52,581 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 23:55:52,583 ERROR repository.ShowRepository 55 findAll - Database error: 
+java.sql.SQLException: database connection closed
+	at org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:399) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:25) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:152) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at repository.ShowRepository.findAll(ShowRepository.java:49) ~[main/:?]
+	at service.ShowService.getAllShows(ShowService.java:22) ~[main/:?]
+	at controller.MainController.loadShowData(MainController.java:48) ~[main/:?]
+	at controller.MainController.setSomething(MainController.java:44) ~[main/:?]
+	at app.MainApp.createScene(MainApp.java:73) ~[main/:?]
+	at app.MainApp.showMainView(MainApp.java:61) ~[main/:?]
+	at controller.LoginController.handleLogin(LoginController.java:26) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx-base-21-mac-aarch64.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx-graphics-21-mac-aarch64.jar:?]
+24 Mar 2025 23:55:52,589 TRACE repository.ShowRepository 57 findAll - Exit with([])
+24 Mar 2025 23:58:30,660 TRACE utils.Jdbc 23 createNewConnection - Enter
+24 Mar 2025 23:58:30,662 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 23:58:30,663 INFO  utils.Jdbc 30 createNewConnection - user: null
+24 Mar 2025 23:58:30,663 INFO  utils.Jdbc 31 createNewConnection - pass: null
+24 Mar 2025 23:58:30,881 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 23:58:30,882 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 23:58:30,883 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 23:58:36,453 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 23:58:36,464 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 23:58:38,637 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 23:58:38,639 ERROR repository.EmployeeRepository 55 findAll - Database error: 
+java.sql.SQLException: database connection closed
+	at org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:399) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:25) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:152) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at repository.EmployeeRepository.findAll(EmployeeRepository.java:49) ~[main/:?]
+	at service.EmployeeService.login(EmployeeService.java:14) ~[main/:?]
+	at controller.LoginController.handleLogin(LoginController.java:24) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx-base-21-mac-aarch64.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx-graphics-21-mac-aarch64.jar:?]
+24 Mar 2025 23:58:38,652 TRACE repository.EmployeeRepository 57 findAll - Exit with([])
+24 Mar 2025 23:58:42,952 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 23:58:42,953 ERROR repository.EmployeeRepository 55 findAll - Database error: 
+java.sql.SQLException: database connection closed
+	at org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:399) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:25) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:152) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at repository.EmployeeRepository.findAll(EmployeeRepository.java:49) ~[main/:?]
+	at service.EmployeeService.login(EmployeeService.java:14) ~[main/:?]
+	at controller.LoginController.handleLogin(LoginController.java:24) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx-base-21-mac-aarch64.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx-graphics-21-mac-aarch64.jar:?]
+24 Mar 2025 23:58:42,955 TRACE repository.EmployeeRepository 57 findAll - Exit with([])
+24 Mar 2025 23:59:40,155 TRACE utils.Jdbc 23 createNewConnection - Enter
+24 Mar 2025 23:59:40,157 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+24 Mar 2025 23:59:40,157 INFO  utils.Jdbc 30 createNewConnection - user: null
+24 Mar 2025 23:59:40,157 INFO  utils.Jdbc 31 createNewConnection - pass: null
+24 Mar 2025 23:59:40,373 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+24 Mar 2025 23:59:40,374 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+24 Mar 2025 23:59:40,376 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+24 Mar 2025 23:59:44,336 TRACE repository.EmployeeRepository 45 findAll - Enter
+24 Mar 2025 23:59:44,346 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 23:59:44,389 TRACE repository.ShowRepository 45 findAll - Enter
+24 Mar 2025 23:59:44,389 ERROR repository.ShowRepository 55 findAll - Database error: 
+java.sql.SQLException: database connection closed
+	at org.sqlite.SQLiteConnection.checkOpen(SQLiteConnection.java:399) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at org.sqlite.jdbc4.JDBC4Connection.createStatement(JDBC4Connection.java:25) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:152) ~[sqlite-jdbc-3.36.0.3.jar:?]
+	at repository.ShowRepository.findAll(ShowRepository.java:49) ~[main/:?]
+	at service.ShowService.getAllShows(ShowService.java:22) ~[main/:?]
+	at controller.MainController.loadShowData(MainController.java:48) ~[main/:?]
+	at controller.MainController.setSomething(MainController.java:44) ~[main/:?]
+	at app.MainApp.createScene(MainApp.java:73) ~[main/:?]
+	at app.MainApp.showMainView(MainApp.java:61) ~[main/:?]
+	at controller.LoginController.handleLogin(LoginController.java:26) ~[main/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx-base-21-mac-aarch64.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726) ~[javafx-fxml-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-21-mac-aarch64.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) [javafx-graphics-21-mac-aarch64.jar:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx-graphics-21-mac-aarch64.jar:?]
+24 Mar 2025 23:59:44,396 TRACE repository.ShowRepository 57 findAll - Exit with([])
+25 Mar 2025 00:01:03,515 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 00:01:03,516 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 00:01:03,517 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 00:01:03,517 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 00:01:03,740 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+25 Mar 2025 00:01:03,741 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+25 Mar 2025 00:01:03,742 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+25 Mar 2025 00:01:08,948 TRACE repository.EmployeeRepository 45 findAll - Enter
+25 Mar 2025 00:01:08,952 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+25 Mar 2025 00:01:08,976 TRACE repository.ShowRepository 45 findAll - Enter
+25 Mar 2025 00:01:08,976 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 00:01:08,976 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 00:01:08,976 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 00:01:08,977 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 00:01:08,977 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 00:01:08,979 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 00:01:45,863 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='iustin', numberOfSeats=10, showId=9, id=null})
+25 Mar 2025 00:01:45,863 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 00:01:45,864 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 00:01:45,864 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 00:01:45,864 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 00:01:45,865 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 00:01:45,875 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='iustin', numberOfSeats=10, showId=9, id=16})
+25 Mar 2025 00:01:45,875 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9})
+25 Mar 2025 00:01:45,875 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 00:01:45,876 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 00:01:45,876 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 00:01:45,876 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 00:01:45,876 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 00:01:45,878 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9})
+25 Mar 2025 00:01:46,775 TRACE repository.ShowRepository 45 findAll - Enter
+25 Mar 2025 00:01:46,776 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 00:01:46,776 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 00:01:46,776 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 00:01:46,777 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 00:01:46,777 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 00:01:46,779 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])

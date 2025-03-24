@@ -8,53 +8,49 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-
 public class Jdbc {
 
-    private Properties jdbcProps;
-
+    private final Properties jdbcProps;
     private static final Logger logger = LogManager.getLogger();
-
-    public Jdbc(Properties props) {
-        jdbcProps = props;
-    }
-
     private Connection instance = null;
 
-    private Connection getNewConnection() {
+    public Jdbc(Properties props) {
+        this.jdbcProps = props;
+        this.instance = createNewConnection();
+    }
+
+    private Connection createNewConnection() {
         logger.traceEntry();
 
         String url = jdbcProps.getProperty("jdbc.url");
         String user = jdbcProps.getProperty("jdbc.user");
         String pass = jdbcProps.getProperty("jdbc.pass");
+
         logger.info("trying to connect to database ... {}", url);
         logger.info("user: {}", user);
         logger.info("pass: {}", pass);
-        Connection con = null;
-        try {
 
-            if (user != null && pass != null)
-                con = DriverManager.getConnection(url, user, pass);
+        try {
+            if (user != null && pass != null && !user.isEmpty())
+                return DriverManager.getConnection(url, user, pass);
             else
-                con = DriverManager.getConnection(url);
+                return DriverManager.getConnection(url);
         } catch (SQLException e) {
-            logger.error(e);
-            System.out.println("Error getting connection " + e);
+            logger.error("Error getting connection: ", e);
+            throw new RuntimeException("Error creating DB connection: " + e.getMessage(), e);
         }
-        return con;
     }
 
     public Connection getConnection() {
-        logger.traceEntry();
         try {
-            if (instance == null || instance.isClosed())
-                instance = getNewConnection();
-
+            if (instance == null || instance.isClosed()) {
+                logger.warn("Connection was closed, recreating...");
+                instance = createNewConnection();
+            }
         } catch (SQLException e) {
-            logger.error(e);
-            System.out.println("Error DB " + e);
+            logger.error("Error checking connection state: ", e);
+            throw new RuntimeException("Failed to access connection", e);
         }
-        logger.traceExit(instance);
         return instance;
     }
 }
