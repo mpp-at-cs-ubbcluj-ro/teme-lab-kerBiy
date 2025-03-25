@@ -45,7 +45,7 @@ public class MainController extends GenericController {
     }
 
     private void loadShowData() {
-        List<Show> allShows = showService.getAllShows();
+        List<Show> allShows = service.getAllShows();
         masterData = FXCollections.observableArrayList(allShows);
 
         artistColumn.setCellValueFactory(new PropertyValueFactory<>("artist"));
@@ -102,7 +102,7 @@ public class MainController extends GenericController {
 
         try {
             int seats = Integer.parseInt(seatsResult.get());
-            boolean success = ticketService.sellTicket(buyerResult.get(), seats, selected);
+            boolean success = service.sellTicket(buyerResult.get(), seats, selected);
             if (success) {
                 showAlert(Alert.AlertType.INFORMATION, "Success", "Ticket sold successfully.");
                 loadShowData();

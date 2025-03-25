@@ -979,3 +979,93 @@ java.sql.SQLException: database connection closed
 25 Mar 2025 00:01:46,777 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 00:01:46,777 INFO  utils.Jdbc 31 createNewConnection - pass: null
 25 Mar 2025 00:01:46,779 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 11:29:29,379 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 11:29:30,279 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 11:29:30,280 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 11:29:30,280 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 11:29:30,544 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+25 Mar 2025 11:29:30,544 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+25 Mar 2025 11:29:30,545 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+25 Mar 2025 11:29:35,794 TRACE repository.EmployeeRepository 45 findAll - Enter
+25 Mar 2025 11:29:35,814 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+25 Mar 2025 11:29:36,660 TRACE repository.ShowRepository 45 findAll - Enter
+25 Mar 2025 11:29:36,661 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 11:29:36,661 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 11:29:36,661 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 11:29:36,661 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 11:29:36,661 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 11:29:36,666 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 11:36:33,095 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 11:36:33,097 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 11:36:33,097 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 11:36:33,097 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 11:36:33,430 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+25 Mar 2025 11:36:33,432 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+25 Mar 2025 11:36:33,433 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+25 Mar 2025 11:36:41,084 TRACE repository.EmployeeRepository 45 findAll - Enter
+25 Mar 2025 11:36:41,096 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+25 Mar 2025 11:36:41,139 TRACE repository.ShowRepository 45 findAll - Enter
+25 Mar 2025 11:36:41,139 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 11:36:41,139 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 11:36:41,140 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 11:36:41,140 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 11:36:41,140 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 11:36:41,143 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 11:37:30,050 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='alex', numberOfSeats=5, showId=9, id=null})
+25 Mar 2025 11:37:30,051 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 11:37:30,051 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 11:37:30,052 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 11:37:30,052 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 11:37:30,052 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 11:37:30,064 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='alex', numberOfSeats=5, showId=9, id=17})
+25 Mar 2025 11:37:30,065 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9})
+25 Mar 2025 11:37:30,065 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 11:37:30,065 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 11:37:30,066 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 11:37:30,066 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 11:37:30,066 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 11:37:30,068 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9})
+25 Mar 2025 11:37:31,243 TRACE repository.ShowRepository 45 findAll - Enter
+25 Mar 2025 11:37:31,243 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 11:37:31,244 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 11:37:31,244 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 11:37:31,244 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 11:37:31,244 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 11:37:31,246 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 18:02:42,435 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 18:02:42,437 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 18:02:42,437 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 18:02:42,437 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 18:02:42,664 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
+25 Mar 2025 18:02:42,664 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
+25 Mar 2025 18:02:42,665 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
+25 Mar 2025 18:02:46,296 TRACE repository.EmployeeRepository 45 findAll - Enter
+25 Mar 2025 18:02:46,306 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+25 Mar 2025 18:02:46,349 TRACE repository.ShowRepository 45 findAll - Enter
+25 Mar 2025 18:02:46,350 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 18:02:46,350 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 18:02:46,350 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 18:02:46,350 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 18:02:46,350 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 18:02:46,354 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 18:02:56,123 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='3', numberOfSeats=3, showId=9, id=null})
+25 Mar 2025 18:02:56,124 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 18:02:56,124 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 18:02:56,124 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 18:02:56,125 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 18:02:56,125 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 18:02:56,134 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='3', numberOfSeats=3, showId=9, id=18})
+25 Mar 2025 18:02:56,135 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=21, id=9})
+25 Mar 2025 18:02:56,135 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 18:02:56,135 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 18:02:56,135 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 18:02:56,135 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 18:02:56,136 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 18:02:56,137 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=21, id=9})
+25 Mar 2025 18:02:56,851 TRACE repository.ShowRepository 45 findAll - Enter
+25 Mar 2025 18:02:56,851 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
+25 Mar 2025 18:02:56,852 TRACE utils.Jdbc 23 createNewConnection - Enter
+25 Mar 2025 18:02:56,852 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
+25 Mar 2025 18:02:56,852 INFO  utils.Jdbc 30 createNewConnection - user: null
+25 Mar 2025 18:02:56,852 INFO  utils.Jdbc 31 createNewConnection - pass: null
+25 Mar 2025 18:02:56,854 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=21, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])

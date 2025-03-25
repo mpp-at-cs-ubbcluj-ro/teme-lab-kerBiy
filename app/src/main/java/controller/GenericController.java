@@ -1,21 +1,15 @@
 package controller;
 
 
-import service.ShowService;
-import service.TicketService;
-import service.EmployeeService;
+import service.Service;
 
 import java.util.Optional;
 
 public abstract class GenericController {
-    protected ShowService showService;
-    protected EmployeeService employeeService;
-    protected TicketService ticketService;
+    protected Service service;
 
-    public void setService(ShowService showService, EmployeeService employeeService, TicketService ticketService) {
-        this.showService = showService;
-        this.employeeService = employeeService;
-        this.ticketService = ticketService;
+    public void setService(Service service) {
+        this.service = service;
     }
 
     public abstract void setSomething(Optional<Object> parameter);

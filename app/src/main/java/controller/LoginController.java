@@ -21,7 +21,7 @@ public class LoginController extends GenericController {
         String username = usernameField.getText();
         String password = passwordField.getText();
 
-        Employee employee = employeeService.login(username, password);
+        Employee employee = service.login(username, password);
         if (employee != null) {
             MainApp.showMainView(employee);
         } else {

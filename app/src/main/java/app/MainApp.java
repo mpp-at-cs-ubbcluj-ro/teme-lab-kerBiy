@@ -10,6 +10,7 @@ import repository.EmployeeRepository;
 import repository.ShowRepository;
 import repository.TicketRepository;
 import service.EmployeeService;
+import service.Service;
 import service.ShowService;
 import service.TicketService;
 import utils.Jdbc;
@@ -20,9 +21,7 @@ import java.util.Optional;
 import java.util.Properties;
 
 public class MainApp extends Application {
-    private static ShowService showService;
-    private static EmployeeService employeeService;
-    private static TicketService ticketService;
+    private static Service service;
     private static Stage stage;
 
     @Override
@@ -40,9 +39,11 @@ public class MainApp extends Application {
         var showRepo = new ShowRepository(jdbc);
         var ticketRepo = new TicketRepository(jdbc);
 
-        employeeService = new EmployeeService(employeeRepo);
-        showService = new ShowService(showRepo);
-        ticketService = new TicketService(ticketRepo, showRepo);
+        var employeeService = new EmployeeService(employeeRepo);
+        var showService = new ShowService(showRepo);
+        var ticketService = new TicketService(ticketRepo, showRepo);
+
+        service = new Service(showService, ticketService, employeeService);
     }
 
     @Override
@@ -69,7 +70,7 @@ public class MainApp extends Application {
             Scene scene = new Scene(loader.load());
 
             GenericController controller = loader.getController();
-            controller.setService(showService, employeeService, ticketService);
+            controller.setService(service);
             controller.setSomething(parameter);
 
             return scene;

@@ -2,15 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="app" target="23" />
-      <module name="app.main" target="23" />
-      <module name="app.test" target="23" />
-      <module name="lab2" target="23" />
-      <module name="lab2.main" target="23" />
-      <module name="lab2.test" target="23" />
-      <module name="lab3" target="23" />
-      <module name="lab3.main" target="23" />
-      <module name="lab3.test" target="23" />
+      <module name="app" target="17" />
+      <module name="app.main" target="17" />
+      <module name="app.test" target="17" />
+      <module name="example" target="21" />
+      <module name="example.main" target="21" />
+      <module name="example.test" target="21" />
+      <module name="lab2" target="17" />
+      <module name="lab2.main" target="17" />
+      <module name="lab2.test" target="17" />
+      <module name="lab3" target="17" />
+      <module name="lab3.main" target="17" />
+      <module name="lab3.test" target="17" />
+      <module name="TemaLab4" target="23" />
+      <module name="TemaLab4.main" target="23" />
+      <module name="TemaLab4.test" target="23" />
     </bytecodeTargetLevel>
   </component>
 </project>

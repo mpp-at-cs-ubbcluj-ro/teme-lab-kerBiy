@@ -1,12 +1,12 @@
 package service;
 
 import model.Employee;
-import repository.EmployeeRepository;
+import repository.IEmployeeRepository;
 
 public class EmployeeService {
-    private final EmployeeRepository employeeRepository;
+    private final IEmployeeRepository employeeRepository;
 
-    public EmployeeService(EmployeeRepository repo) {
+    public EmployeeService(IEmployeeRepository repo) {
         this.employeeRepository = repo;
     }
 

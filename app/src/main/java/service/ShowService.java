@@ -1,7 +1,7 @@
 package service;
 
 import model.Show;
-import repository.ShowRepository;
+import repository.IShowRepository;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -11,9 +11,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class ShowService {
-    private final ShowRepository showRepository;
+    private final IShowRepository showRepository;
 
-    public ShowService(ShowRepository showRepository) {
+    public ShowService(IShowRepository showRepository) {
         this.showRepository = showRepository;
     }
 

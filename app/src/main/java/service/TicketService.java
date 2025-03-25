@@ -2,14 +2,14 @@ package service;
 
 import model.Show;
 import model.Ticket;
-import repository.ShowRepository;
-import repository.TicketRepository;
+import repository.IShowRepository;
+import repository.ITicketRepository;
 
 public class TicketService {
-    private final TicketRepository ticketRepository;
-    private final ShowRepository showRepository;
+    private final ITicketRepository ticketRepository;
+    private final IShowRepository showRepository;
 
-    public TicketService(TicketRepository ticketRepository, ShowRepository showRepository) {
+    public TicketService(ITicketRepository ticketRepository, IShowRepository showRepository) {
         this.ticketRepository = ticketRepository;
         this.showRepository = showRepository;
     }
