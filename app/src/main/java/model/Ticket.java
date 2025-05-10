@@ -48,7 +48,7 @@ public class Ticket implements Identifiable<Long> {
 
     @Override
     public String toString() {
-        return "Ticket{" +
+        return "models.Ticket{" +
                 "name='" + name + '\'' +
                 ", numberOfSeats=" + numberOfSeats +
                 ", showId=" + showId +

@@ -38,7 +38,7 @@ public class Employee implements Identifiable<Long> {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "models.Employee{" +
                 "username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", id=" + id +

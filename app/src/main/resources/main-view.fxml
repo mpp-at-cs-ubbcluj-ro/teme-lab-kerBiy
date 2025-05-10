@@ -3,7 +3,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="controller.MainController">
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:client.controller="controller.MainController">
     <top>
         <VBox>
             <HBox alignment="CENTER_LEFT">
@@ -19,7 +19,7 @@
                 <Button text="Search" onAction="#handleSearch"/>
                 <Button text="Clear Search" onAction="#handleClearSearch"/>
                 <Region fx:id="spacer2" HBox.hgrow="ALWAYS"/>
-                <Button text="Sell Ticket" onAction="#handleSellTicket"/>
+                <Button text="Sell models.Ticket" onAction="#handleSellTicket"/>
             </HBox>
         </VBox>
     </top>

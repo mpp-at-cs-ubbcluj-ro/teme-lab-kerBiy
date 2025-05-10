@@ -71,7 +71,7 @@ public class Show implements Identifiable<Long> {
 
     @Override
     public String toString() {
-        return "Show{" +
+        return "models.Show{" +
                 "artist='" + artist + '\'' +
                 ", date=" + date +
                 ", location='" + location + '\'' +

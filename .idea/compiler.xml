@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="app" target="17" />
-      <module name="app.main" target="17" />
-      <module name="app.test" target="17" />
+      <module name="app" target="21" />
+      <module name="app.main" target="21" />
+      <module name="app.test" target="21" />
       <module name="example" target="21" />
       <module name="example.main" target="21" />
       <module name="example.test" target="21" />
@@ -14,6 +14,27 @@
       <module name="lab3" target="17" />
       <module name="lab3.main" target="17" />
       <module name="lab3.test" target="17" />
+      <module name="server-client" target="21" />
+      <module name="server-client.client" target="21" />
+      <module name="server-client.client.main" target="21" />
+      <module name="server-client.client.test" target="21" />
+      <module name="server-client.main" target="21" />
+      <module name="server-client.models" target="21" />
+      <module name="server-client.models.main" target="21" />
+      <module name="server-client.models.test" target="21" />
+      <module name="server-client.network" target="21" />
+      <module name="server-client.network.main" target="21" />
+      <module name="server-client.network.test" target="21" />
+      <module name="server-client.persistence" target="21" />
+      <module name="server-client.persistence.main" target="21" />
+      <module name="server-client.persistence.test" target="21" />
+      <module name="server-client.server" target="21" />
+      <module name="server-client.server.main" target="21" />
+      <module name="server-client.server.test" target="21" />
+      <module name="server-client.services" target="21" />
+      <module name="server-client.services.main" target="21" />
+      <module name="server-client.services.test" target="21" />
+      <module name="server-client.test" target="21" />
       <module name="TemaLab4" target="23" />
       <module name="TemaLab4.main" target="23" />
       <module name="TemaLab4.test" target="23" />

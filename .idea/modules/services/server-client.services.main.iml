@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":services:main" external.linked.project.path="$MODULE_DIR$/../../../server-client/services" external.root.project.path="$MODULE_DIR$/../../../server-client" external.system.id="GRADLE" external.system.module.group="cs.ubb" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../server-client/services/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../server-client/services/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../server-client/services/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../server-client/services/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="server-client.models.main" />
+  </component>
+</module>

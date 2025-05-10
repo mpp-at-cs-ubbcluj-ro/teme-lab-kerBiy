@@ -12,7 +12,7 @@
 18 Mar 2025 10:44:19,475 INFO  utils.Jdbc 31 getNewConnection - user: null
 18 Mar 2025 10:44:19,475 INFO  utils.Jdbc 32 getNewConnection - pass: null
 18 Mar 2025 10:44:19,476 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38145825)
-18 Mar 2025 10:44:19,482 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}])
+18 Mar 2025 10:44:19,482 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}])
 18 Mar 2025 10:44:19,484 TRACE repository.ShowRepository 24 findOne - Enter findOne(4)
 18 Mar 2025 10:44:19,485 TRACE utils.Jdbc 48 getConnection - Enter
 18 Mar 2025 10:44:19,485 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -20,15 +20,15 @@
 18 Mar 2025 10:44:19,485 INFO  utils.Jdbc 31 getNewConnection - user: null
 18 Mar 2025 10:44:19,486 INFO  utils.Jdbc 32 getNewConnection - pass: null
 18 Mar 2025 10:44:19,486 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c9b0314)
-18 Mar 2025 10:44:19,487 TRACE repository.ShowRepository 32 findOne - Exit with(Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4})
-18 Mar 2025 10:44:19,487 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=100, id=4})
+18 Mar 2025 10:44:19,487 TRACE repository.ShowRepository 32 findOne - Exit with(models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4})
+18 Mar 2025 10:44:19,487 TRACE repository.ShowRepository 111 update - Enter update(models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=100, id=4})
 18 Mar 2025 10:44:19,488 TRACE utils.Jdbc 48 getConnection - Enter
 18 Mar 2025 10:44:19,488 TRACE utils.Jdbc 25 getNewConnection - Enter
 18 Mar 2025 10:44:19,488 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 18 Mar 2025 10:44:19,488 INFO  utils.Jdbc 31 getNewConnection - user: null
 18 Mar 2025 10:44:19,489 INFO  utils.Jdbc 32 getNewConnection - pass: null
 18 Mar 2025 10:44:19,489 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45385f75)
-18 Mar 2025 10:44:19,490 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=100, id=4})
+18 Mar 2025 10:44:19,490 TRACE repository.ShowRepository 123 update - Exit with(models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=100, id=4})
 18 Mar 2025 10:44:19,490 TRACE repository.ShowRepository 24 findOne - Enter findOne(4)
 18 Mar 2025 10:44:19,491 TRACE utils.Jdbc 48 getConnection - Enter
 18 Mar 2025 10:44:19,491 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -36,7 +36,7 @@
 18 Mar 2025 10:44:19,491 INFO  utils.Jdbc 31 getNewConnection - user: null
 18 Mar 2025 10:44:19,491 INFO  utils.Jdbc 32 getNewConnection - pass: null
 18 Mar 2025 10:44:19,491 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49c90a9c)
-18 Mar 2025 10:44:19,492 TRACE repository.ShowRepository 32 findOne - Exit with(Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4})
+18 Mar 2025 10:44:19,492 TRACE repository.ShowRepository 32 findOne - Exit with(models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4})
 18 Mar 2025 10:50:00,232 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 18 Mar 2025 10:50:00,234 TRACE utils.Jdbc 48 getConnection - Enter
 18 Mar 2025 10:50:00,234 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -51,7 +51,7 @@
 18 Mar 2025 10:50:00,697 INFO  utils.Jdbc 31 getNewConnection - user: null
 18 Mar 2025 10:50:00,697 INFO  utils.Jdbc 32 getNewConnection - pass: null
 18 Mar 2025 10:50:00,698 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38145825)
-18 Mar 2025 10:50:00,706 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}])
+18 Mar 2025 10:50:00,706 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}])
 18 Mar 2025 10:58:21,782 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 18 Mar 2025 10:58:21,784 TRACE utils.Jdbc 48 getConnection - Enter
 18 Mar 2025 10:58:21,784 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -66,7 +66,7 @@
 18 Mar 2025 10:58:22,209 INFO  utils.Jdbc 31 getNewConnection - user: null
 18 Mar 2025 10:58:22,209 INFO  utils.Jdbc 32 getNewConnection - pass: null
 18 Mar 2025 10:58:22,210 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41330d4f)
-18 Mar 2025 10:58:22,217 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}])
+18 Mar 2025 10:58:22,217 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}])
 18 Mar 2025 11:00:56,246 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 18 Mar 2025 11:00:56,248 TRACE utils.Jdbc 48 getConnection - Enter
 18 Mar 2025 11:00:56,249 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -81,7 +81,7 @@
 18 Mar 2025 11:00:56,526 INFO  utils.Jdbc 31 getNewConnection - user: null
 18 Mar 2025 11:00:56,526 INFO  utils.Jdbc 32 getNewConnection - pass: null
 18 Mar 2025 11:00:56,526 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41330d4f)
-18 Mar 2025 11:00:56,533 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}])
+18 Mar 2025 11:00:56,533 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}])
 18 Mar 2025 11:04:16,827 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 18 Mar 2025 11:04:16,830 TRACE utils.Jdbc 48 getConnection - Enter
 18 Mar 2025 11:04:16,830 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -96,7 +96,7 @@
 18 Mar 2025 11:04:17,112 INFO  utils.Jdbc 31 getNewConnection - user: null
 18 Mar 2025 11:04:17,112 INFO  utils.Jdbc 32 getNewConnection - pass: null
 18 Mar 2025 11:04:17,113 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41330d4f)
-18 Mar 2025 11:04:17,120 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=8}])
+18 Mar 2025 11:04:17,120 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=8}])
 23 Mar 2025 18:39:16,060 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 23 Mar 2025 18:39:17,079 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 23 Mar 2025 18:39:17,081 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -113,7 +113,7 @@
 23 Mar 2025 18:40:46,755 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:40:46,756 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:40:47,020 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2031717a)
-23 Mar 2025 18:40:47,027 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:40:47,027 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:40:49,347 TRACE repository.EmployeeRepository 45 findAll - Enter
 23 Mar 2025 18:40:49,347 TRACE utils.Jdbc 48 getConnection - Enter
 23 Mar 2025 18:40:49,348 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -121,7 +121,7 @@
 23 Mar 2025 18:40:49,349 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:40:49,349 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:40:49,350 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@12971a25)
-23 Mar 2025 18:40:49,352 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:40:49,352 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:43:00,384 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 23 Mar 2025 18:43:00,386 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 23 Mar 2025 18:43:00,387 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -132,7 +132,7 @@
 23 Mar 2025 18:43:09,468 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:43:09,468 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:43:09,776 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@9a59cac)
-23 Mar 2025 18:43:09,786 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:43:09,786 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:43:13,730 TRACE repository.EmployeeRepository 45 findAll - Enter
 23 Mar 2025 18:43:13,731 TRACE utils.Jdbc 48 getConnection - Enter
 23 Mar 2025 18:43:13,731 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -140,7 +140,7 @@
 23 Mar 2025 18:43:13,732 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:43:13,732 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:43:13,734 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61e6dcde)
-23 Mar 2025 18:43:13,735 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:43:13,735 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:43:16,613 TRACE repository.EmployeeRepository 45 findAll - Enter
 23 Mar 2025 18:43:16,614 TRACE utils.Jdbc 48 getConnection - Enter
 23 Mar 2025 18:43:16,614 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -148,7 +148,7 @@
 23 Mar 2025 18:43:16,615 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:43:16,615 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:43:16,616 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@310b87fd)
-23 Mar 2025 18:43:16,617 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:43:16,617 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:44:40,644 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 23 Mar 2025 18:44:40,646 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 23 Mar 2025 18:44:40,646 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -159,7 +159,7 @@
 23 Mar 2025 18:44:48,325 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:44:48,325 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:44:48,589 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2031717a)
-23 Mar 2025 18:44:48,592 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:44:48,592 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:47:50,983 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 23 Mar 2025 18:47:50,986 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 23 Mar 2025 18:47:50,987 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -170,7 +170,7 @@
 23 Mar 2025 18:48:00,541 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:48:00,541 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:48:00,858 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ebbc878)
-23 Mar 2025 18:48:00,870 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:48:00,870 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:49:04,206 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 23 Mar 2025 18:49:04,209 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 23 Mar 2025 18:49:04,209 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -181,7 +181,7 @@
 23 Mar 2025 18:49:10,243 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:49:10,244 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:49:10,503 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ebbc878)
-23 Mar 2025 18:49:10,508 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:49:10,508 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:49:15,050 TRACE repository.EmployeeRepository 45 findAll - Enter
 23 Mar 2025 18:49:15,051 TRACE utils.Jdbc 48 getConnection - Enter
 23 Mar 2025 18:49:15,051 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -189,7 +189,7 @@
 23 Mar 2025 18:49:15,052 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:49:15,052 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:49:15,054 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c750502)
-23 Mar 2025 18:49:15,055 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:49:15,055 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:52:08,586 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 23 Mar 2025 18:52:08,588 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 23 Mar 2025 18:52:08,589 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -200,7 +200,7 @@
 23 Mar 2025 18:52:14,257 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:52:14,258 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:52:14,685 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2031717a)
-23 Mar 2025 18:52:14,690 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:52:14,690 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:52:48,948 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 23 Mar 2025 18:52:48,950 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 23 Mar 2025 18:52:48,950 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -211,7 +211,7 @@
 23 Mar 2025 18:52:57,935 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:52:57,935 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:52:58,166 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61e6dcde)
-23 Mar 2025 18:52:58,169 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:52:58,169 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:56:59,843 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 23 Mar 2025 18:56:59,846 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 23 Mar 2025 18:56:59,846 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -222,7 +222,7 @@
 23 Mar 2025 18:57:08,013 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:57:08,013 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:57:08,302 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@13ace40e)
-23 Mar 2025 18:57:08,311 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 18:57:08,311 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 18:57:08,334 TRACE repository.ShowRepository 45 findAll - Enter
 23 Mar 2025 18:57:08,334 TRACE utils.Jdbc 48 getConnection - Enter
 23 Mar 2025 18:57:08,335 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -230,7 +230,7 @@
 23 Mar 2025 18:57:08,335 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 18:57:08,335 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 18:57:08,335 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@151b7a05)
-23 Mar 2025 18:57:08,340 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=8}])
+23 Mar 2025 18:57:08,340 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=8}])
 23 Mar 2025 20:48:48,285 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 23 Mar 2025 20:48:48,288 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 23 Mar 2025 20:48:48,288 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -241,7 +241,7 @@
 23 Mar 2025 20:48:57,862 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 20:48:57,863 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 20:48:58,117 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@18d68f58)
-23 Mar 2025 20:48:58,121 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='password123', id=1}])
+23 Mar 2025 20:48:58,121 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='password123', id=1}])
 23 Mar 2025 20:48:58,150 TRACE repository.ShowRepository 45 findAll - Enter
 23 Mar 2025 20:48:58,150 TRACE utils.Jdbc 48 getConnection - Enter
 23 Mar 2025 20:48:58,150 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -249,7 +249,7 @@
 23 Mar 2025 20:48:58,150 INFO  utils.Jdbc 31 getNewConnection - user: null
 23 Mar 2025 20:48:58,150 INFO  utils.Jdbc 32 getNewConnection - pass: null
 23 Mar 2025 20:48:58,151 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ab308e9)
-23 Mar 2025 20:48:58,154 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}, Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=8}])
+23 Mar 2025 20:48:58,154 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='The Rolling Stones', date=2025-03-17, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=1}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=2}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=3}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=4}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=5}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=6}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=7}, models.Show{artist='The Rolling Stones', date=2025-03-18, location='Madison Square Garden', totalSeats=5000, soldSeats=0, id=8}])
 24 Mar 2025 10:56:24,671 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 10:56:24,674 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 10:56:24,674 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -260,7 +260,7 @@
 24 Mar 2025 10:56:31,293 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 10:56:31,293 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 10:56:31,542 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@727f31d5)
-24 Mar 2025 10:56:31,545 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 10:56:31,545 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 10:56:31,565 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 10:56:31,565 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 10:56:31,566 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -268,7 +268,7 @@
 24 Mar 2025 10:56:31,566 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 10:56:31,566 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 10:56:31,567 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6952258)
-24 Mar 2025 10:56:31,571 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 10:56:31,571 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
 24 Mar 2025 12:57:12,348 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 12:57:12,351 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 12:57:12,352 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -279,7 +279,7 @@
 24 Mar 2025 12:57:19,365 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 12:57:19,366 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 12:57:19,785 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ee861f5)
-24 Mar 2025 12:57:19,792 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 12:57:19,792 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 12:57:19,824 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 12:57:19,824 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 12:57:19,825 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -287,7 +287,7 @@
 24 Mar 2025 12:57:19,825 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 12:57:19,825 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 12:57:19,826 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40e9da8a)
-24 Mar 2025 12:57:19,829 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 12:57:19,829 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
 24 Mar 2025 13:06:18,412 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:06:18,415 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:06:18,415 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -304,7 +304,7 @@
 24 Mar 2025 13:08:53,383 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:08:53,384 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:08:53,912 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61f2140e)
-24 Mar 2025 13:08:53,919 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:08:53,919 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:11:00,209 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:11:00,211 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:11:00,212 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -315,7 +315,7 @@
 24 Mar 2025 13:11:05,396 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:11:05,396 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:11:05,745 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@589adb2)
-24 Mar 2025 13:11:05,749 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:11:05,749 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:11:05,774 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:11:05,774 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:11:05,774 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -323,7 +323,7 @@
 24 Mar 2025 13:11:05,775 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:11:05,775 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:11:05,775 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b20dd1b)
-24 Mar 2025 13:11:05,778 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:11:05,778 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
 24 Mar 2025 13:12:52,485 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:12:52,487 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:12:52,488 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -334,7 +334,7 @@
 24 Mar 2025 13:12:58,845 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:12:58,845 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:12:59,236 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a6406d)
-24 Mar 2025 13:12:59,247 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:12:59,247 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:13:01,685 TRACE repository.EmployeeRepository 45 findAll - Enter
 24 Mar 2025 13:13:01,686 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:13:01,687 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -342,7 +342,7 @@
 24 Mar 2025 13:13:01,687 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:13:01,688 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:13:01,689 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@629a2987)
-24 Mar 2025 13:13:01,691 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:13:01,691 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:13:01,732 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:13:01,732 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:13:01,732 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -350,7 +350,7 @@
 24 Mar 2025 13:13:01,732 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:13:01,733 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:13:01,733 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@611106aa)
-24 Mar 2025 13:13:01,738 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:13:01,738 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
 24 Mar 2025 13:28:56,789 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:28:56,792 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:28:56,793 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -364,7 +364,7 @@
 24 Mar 2025 13:30:15,221 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:30:15,221 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:30:15,698 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57a6406d)
-24 Mar 2025 13:30:15,701 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:30:15,701 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:31:06,250 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:31:06,253 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:31:06,253 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -375,7 +375,7 @@
 24 Mar 2025 13:31:25,362 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:31:25,363 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:31:25,734 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ebecd34)
-24 Mar 2025 13:31:25,742 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:31:25,742 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:31:25,784 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:31:25,785 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:31:25,785 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -383,7 +383,7 @@
 24 Mar 2025 13:31:25,785 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:31:25,785 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:31:25,786 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@631ad950)
-24 Mar 2025 13:31:25,789 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:31:25,789 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
 24 Mar 2025 13:37:01,099 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:37:01,103 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:37:01,104 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -394,7 +394,7 @@
 24 Mar 2025 13:37:06,036 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:37:06,036 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:37:06,544 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5faf0ee)
-24 Mar 2025 13:37:06,556 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:37:06,556 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:37:06,602 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:37:06,602 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:37:06,603 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -402,23 +402,23 @@
 24 Mar 2025 13:37:06,603 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:37:06,603 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:37:06,603 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d13e9d5)
-24 Mar 2025 13:37:06,607 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
-24 Mar 2025 13:37:13,339 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='alex', numberOfSeats=2, showId=9, id=null})
+24 Mar 2025 13:37:06,607 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:37:13,339 TRACE repository.TicketRepository 63 save - Enter save(models.Ticket{name='alex', numberOfSeats=2, showId=9, id=null})
 24 Mar 2025 13:37:13,340 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:37:13,340 TRACE utils.Jdbc 25 getNewConnection - Enter
 24 Mar 2025 13:37:13,340 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 24 Mar 2025 13:37:13,341 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:37:13,341 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:37:13,342 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@147d95bc)
-24 Mar 2025 13:37:13,354 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='alex', numberOfSeats=2, showId=9, id=13})
-24 Mar 2025 13:37:13,355 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=2, id=9})
+24 Mar 2025 13:37:13,354 TRACE repository.TicketRepository 77 save - Exit with(models.Ticket{name='alex', numberOfSeats=2, showId=9, id=13})
+24 Mar 2025 13:37:13,355 TRACE repository.ShowRepository 111 update - Enter update(models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=2, id=9})
 24 Mar 2025 13:37:13,355 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:37:13,356 TRACE utils.Jdbc 25 getNewConnection - Enter
 24 Mar 2025 13:37:13,356 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 24 Mar 2025 13:37:13,356 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:37:13,356 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:37:13,357 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5755caf3)
-24 Mar 2025 13:37:13,359 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=2, id=9})
+24 Mar 2025 13:37:13,359 TRACE repository.ShowRepository 123 update - Exit with(models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=2, id=9})
 24 Mar 2025 13:37:14,984 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:37:14,984 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:37:14,985 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -426,7 +426,7 @@
 24 Mar 2025 13:37:14,985 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:37:14,986 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:37:14,986 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7884e513)
-24 Mar 2025 13:37:14,988 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:37:14,988 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
 24 Mar 2025 13:37:28,674 TRACE repository.EmployeeRepository 45 findAll - Enter
 24 Mar 2025 13:37:28,676 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:37:28,676 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -434,7 +434,7 @@
 24 Mar 2025 13:37:28,677 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:37:28,677 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:37:28,679 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b0c0317)
-24 Mar 2025 13:37:28,680 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:37:28,680 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:37:28,697 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:37:28,697 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:37:28,697 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -442,7 +442,7 @@
 24 Mar 2025 13:37:28,698 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:37:28,698 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:37:28,699 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@478e49a1)
-24 Mar 2025 13:37:28,700 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
+24 Mar 2025 13:37:28,700 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=0, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=0, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=0, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=0, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=0, id=13}])
 24 Mar 2025 13:40:18,338 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:40:18,340 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:40:18,340 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -453,7 +453,7 @@
 24 Mar 2025 13:40:21,715 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:40:21,716 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:40:22,068 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d43743b)
-24 Mar 2025 13:40:22,081 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:40:22,081 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:40:22,112 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:40:22,112 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:40:22,113 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -461,23 +461,23 @@
 24 Mar 2025 13:40:22,113 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:40:22,113 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:40:22,113 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@11a2ae00)
-24 Mar 2025 13:40:22,118 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=2, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
-24 Mar 2025 13:40:36,605 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='mike', numberOfSeats=1, showId=9, id=null})
+24 Mar 2025 13:40:22,118 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=2, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:40:36,605 TRACE repository.TicketRepository 63 save - Enter save(models.Ticket{name='mike', numberOfSeats=1, showId=9, id=null})
 24 Mar 2025 13:40:36,606 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:40:36,606 TRACE utils.Jdbc 25 getNewConnection - Enter
 24 Mar 2025 13:40:36,606 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 24 Mar 2025 13:40:36,607 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:40:36,607 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:40:36,608 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@147d95bc)
-24 Mar 2025 13:40:36,623 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='mike', numberOfSeats=1, showId=9, id=14})
-24 Mar 2025 13:40:36,623 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9})
+24 Mar 2025 13:40:36,623 TRACE repository.TicketRepository 77 save - Exit with(models.Ticket{name='mike', numberOfSeats=1, showId=9, id=14})
+24 Mar 2025 13:40:36,623 TRACE repository.ShowRepository 111 update - Enter update(models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9})
 24 Mar 2025 13:40:36,623 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:40:36,623 TRACE utils.Jdbc 25 getNewConnection - Enter
 24 Mar 2025 13:40:36,624 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 24 Mar 2025 13:40:36,624 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:40:36,624 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:40:36,625 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5755caf3)
-24 Mar 2025 13:40:36,626 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9})
+24 Mar 2025 13:40:36,626 TRACE repository.ShowRepository 123 update - Exit with(models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9})
 24 Mar 2025 13:40:37,514 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:40:37,514 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:40:37,515 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -485,7 +485,7 @@
 24 Mar 2025 13:40:37,515 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:40:37,515 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:40:37,516 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@122981c6)
-24 Mar 2025 13:40:37,517 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:40:37,517 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
 24 Mar 2025 13:43:28,321 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:43:28,323 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:43:28,323 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -496,7 +496,7 @@
 24 Mar 2025 13:43:33,114 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:43:33,114 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:43:33,519 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5faf0ee)
-24 Mar 2025 13:43:33,524 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:43:33,524 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:43:33,558 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:43:33,559 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:43:33,559 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -504,7 +504,7 @@
 24 Mar 2025 13:43:33,559 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:43:33,559 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:43:33,560 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f7036e3)
-24 Mar 2025 13:43:33,563 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:43:33,563 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
 24 Mar 2025 13:45:18,939 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:45:18,941 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:45:18,942 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -515,7 +515,7 @@
 24 Mar 2025 13:45:24,747 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:45:24,748 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:45:25,137 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ebecd34)
-24 Mar 2025 13:45:25,142 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:45:25,142 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:45:25,176 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:45:25,176 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:45:25,176 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -523,7 +523,7 @@
 24 Mar 2025 13:45:25,177 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:45:25,177 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:45:25,177 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@631ad950)
-24 Mar 2025 13:45:25,180 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:45:25,180 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
 24 Mar 2025 13:45:48,106 TRACE repository.EmployeeRepository 45 findAll - Enter
 24 Mar 2025 13:45:48,107 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:45:48,107 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -531,7 +531,7 @@
 24 Mar 2025 13:45:48,107 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:45:48,108 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:45:48,109 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6464c9b0)
-24 Mar 2025 13:45:48,110 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:45:48,110 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:45:48,122 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:45:48,122 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:45:48,122 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -539,7 +539,7 @@
 24 Mar 2025 13:45:48,123 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:45:48,123 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:45:48,124 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1abfb29f)
-24 Mar 2025 13:45:48,125 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:45:48,125 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
 24 Mar 2025 13:46:32,784 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:46:32,787 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:46:32,788 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -550,7 +550,7 @@
 24 Mar 2025 13:46:36,515 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:46:36,516 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:46:36,869 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d43743b)
-24 Mar 2025 13:46:36,875 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:46:36,875 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:46:36,907 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:46:36,907 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:46:36,907 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -558,7 +558,7 @@
 24 Mar 2025 13:46:36,907 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:46:36,907 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:46:36,908 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@534a09ba)
-24 Mar 2025 13:46:36,910 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:46:36,910 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
 24 Mar 2025 13:46:53,866 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:46:53,868 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:46:53,869 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -569,7 +569,7 @@
 24 Mar 2025 13:46:56,982 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:46:56,983 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:46:57,239 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5faf0ee)
-24 Mar 2025 13:46:57,243 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:46:57,243 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:46:57,280 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:46:57,280 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:46:57,280 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -577,7 +577,7 @@
 24 Mar 2025 13:46:57,281 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:46:57,281 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:46:57,281 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d13e9d5)
-24 Mar 2025 13:46:57,285 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:46:57,285 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
 24 Mar 2025 13:48:30,217 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:48:30,220 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:48:30,221 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -588,7 +588,7 @@
 24 Mar 2025 13:48:34,078 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:48:34,078 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:48:34,650 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5faf0ee)
-24 Mar 2025 13:48:34,665 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:48:34,665 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:48:34,698 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:48:34,698 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:48:34,698 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -596,7 +596,7 @@
 24 Mar 2025 13:48:34,699 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:48:34,699 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:48:34,699 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f7036e3)
-24 Mar 2025 13:48:34,703 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:48:34,703 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
 24 Mar 2025 13:49:35,797 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 13:49:35,801 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 13:49:35,801 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -607,7 +607,7 @@
 24 Mar 2025 13:49:39,415 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:49:39,415 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:49:39,819 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ebecd34)
-24 Mar 2025 13:49:39,825 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 13:49:39,825 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 13:49:39,857 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 13:49:39,858 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 13:49:39,858 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -615,7 +615,7 @@
 24 Mar 2025 13:49:39,858 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 13:49:39,858 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 13:49:39,859 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@631ad950)
-24 Mar 2025 13:49:39,861 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 13:49:39,861 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
 24 Mar 2025 23:52:16,859 INFO  repository.EmployeeRepository 18 <init> - Initializing EmployeeRepository
 24 Mar 2025 23:52:18,704 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 23:52:19,660 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
@@ -626,7 +626,7 @@
 24 Mar 2025 23:52:28,086 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 23:52:28,086 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 23:52:29,033 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d43743b)
-24 Mar 2025 23:52:29,040 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 23:52:29,040 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 23:52:29,644 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 23:52:29,645 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 23:52:29,645 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -634,23 +634,23 @@
 24 Mar 2025 23:52:29,645 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 23:52:29,645 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 23:52:29,646 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@11a2ae00)
-24 Mar 2025 23:52:29,649 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
-24 Mar 2025 23:52:48,037 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='alex', numberOfSeats=3, showId=13, id=null})
+24 Mar 2025 23:52:29,649 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=180, id=13}])
+24 Mar 2025 23:52:48,037 TRACE repository.TicketRepository 63 save - Enter save(models.Ticket{name='alex', numberOfSeats=3, showId=13, id=null})
 24 Mar 2025 23:52:48,038 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 23:52:48,039 TRACE utils.Jdbc 25 getNewConnection - Enter
 24 Mar 2025 23:52:48,039 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 24 Mar 2025 23:52:48,039 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 23:52:48,040 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 23:52:48,041 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6aa4448b)
-24 Mar 2025 23:52:48,051 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='alex', numberOfSeats=3, showId=13, id=15})
-24 Mar 2025 23:52:48,052 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13})
+24 Mar 2025 23:52:48,051 TRACE repository.TicketRepository 77 save - Exit with(models.Ticket{name='alex', numberOfSeats=3, showId=13, id=15})
+24 Mar 2025 23:52:48,052 TRACE repository.ShowRepository 111 update - Enter update(models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13})
 24 Mar 2025 23:52:48,052 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 23:52:48,052 TRACE utils.Jdbc 25 getNewConnection - Enter
 24 Mar 2025 23:52:48,052 INFO  utils.Jdbc 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 24 Mar 2025 23:52:48,053 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 23:52:48,053 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 23:52:48,053 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77b93730)
-24 Mar 2025 23:52:48,055 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13})
+24 Mar 2025 23:52:48,055 TRACE repository.ShowRepository 123 update - Exit with(models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13})
 24 Mar 2025 23:52:49,423 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 23:52:49,423 TRACE utils.Jdbc 48 getConnection - Enter
 24 Mar 2025 23:52:49,423 TRACE utils.Jdbc 25 getNewConnection - Enter
@@ -658,7 +658,7 @@
 24 Mar 2025 23:52:49,424 INFO  utils.Jdbc 31 getNewConnection - user: null
 24 Mar 2025 23:52:49,424 INFO  utils.Jdbc 32 getNewConnection - pass: null
 24 Mar 2025 23:52:49,425 TRACE utils.Jdbc 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e9e493e)
-24 Mar 2025 23:52:49,426 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+24 Mar 2025 23:52:49,426 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
 24 Mar 2025 23:55:46,501 TRACE utils.Jdbc 23 createNewConnection - Enter
 24 Mar 2025 23:55:46,503 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 24 Mar 2025 23:55:46,503 INFO  utils.Jdbc 30 createNewConnection - user: null
@@ -667,7 +667,7 @@
 24 Mar 2025 23:55:46,728 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 23:55:46,729 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
 24 Mar 2025 23:55:52,542 TRACE repository.EmployeeRepository 45 findAll - Enter
-24 Mar 2025 23:55:52,548 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 23:55:52,548 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 23:55:52,581 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 23:55:52,583 ERROR repository.ShowRepository 55 findAll - Database error: 
 java.sql.SQLException: database connection closed
@@ -676,11 +676,11 @@ java.sql.SQLException: database connection closed
 	at org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:152) ~[sqlite-jdbc-3.36.0.3.jar:?]
 	at repository.ShowRepository.findAll(ShowRepository.java:49) ~[main/:?]
 	at service.ShowService.getAllShows(ShowService.java:22) ~[main/:?]
-	at controller.MainController.loadShowData(MainController.java:48) ~[main/:?]
-	at controller.MainController.setSomething(MainController.java:44) ~[main/:?]
-	at app.MainApp.createScene(MainApp.java:73) ~[main/:?]
-	at app.MainApp.showMainView(MainApp.java:61) ~[main/:?]
-	at controller.LoginController.handleLogin(LoginController.java:26) ~[main/:?]
+	at client.controller.MainController.loadShowData(MainController.java:48) ~[main/:?]
+	at client.controller.MainController.setSomething(MainController.java:44) ~[main/:?]
+	at app.client.MainApp.createScene(client.MainApp.java:73) ~[main/:?]
+	at app.client.MainApp.showMainView(client.MainApp.java:61) ~[main/:?]
+	at client.controller.LoginController.handleLogin(LoginController.java:26) ~[main/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx-base-21-mac-aarch64.jar:?]
@@ -742,7 +742,7 @@ java.sql.SQLException: database connection closed
 24 Mar 2025 23:58:30,882 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 23:58:30,883 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
 24 Mar 2025 23:58:36,453 TRACE repository.EmployeeRepository 45 findAll - Enter
-24 Mar 2025 23:58:36,464 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 23:58:36,464 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 23:58:38,637 TRACE repository.EmployeeRepository 45 findAll - Enter
 24 Mar 2025 23:58:38,639 ERROR repository.EmployeeRepository 55 findAll - Database error: 
 java.sql.SQLException: database connection closed
@@ -751,7 +751,7 @@ java.sql.SQLException: database connection closed
 	at org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:152) ~[sqlite-jdbc-3.36.0.3.jar:?]
 	at repository.EmployeeRepository.findAll(EmployeeRepository.java:49) ~[main/:?]
 	at service.EmployeeService.login(EmployeeService.java:14) ~[main/:?]
-	at controller.LoginController.handleLogin(LoginController.java:24) ~[main/:?]
+	at client.controller.LoginController.handleLogin(LoginController.java:24) ~[main/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx-base-21-mac-aarch64.jar:?]
@@ -813,7 +813,7 @@ java.sql.SQLException: database connection closed
 	at org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:152) ~[sqlite-jdbc-3.36.0.3.jar:?]
 	at repository.EmployeeRepository.findAll(EmployeeRepository.java:49) ~[main/:?]
 	at service.EmployeeService.login(EmployeeService.java:14) ~[main/:?]
-	at controller.LoginController.handleLogin(LoginController.java:24) ~[main/:?]
+	at client.controller.LoginController.handleLogin(LoginController.java:24) ~[main/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx-base-21-mac-aarch64.jar:?]
@@ -875,7 +875,7 @@ java.sql.SQLException: database connection closed
 24 Mar 2025 23:59:40,374 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 24 Mar 2025 23:59:40,376 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
 24 Mar 2025 23:59:44,336 TRACE repository.EmployeeRepository 45 findAll - Enter
-24 Mar 2025 23:59:44,346 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+24 Mar 2025 23:59:44,346 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 24 Mar 2025 23:59:44,389 TRACE repository.ShowRepository 45 findAll - Enter
 24 Mar 2025 23:59:44,389 ERROR repository.ShowRepository 55 findAll - Database error: 
 java.sql.SQLException: database connection closed
@@ -884,11 +884,11 @@ java.sql.SQLException: database connection closed
 	at org.sqlite.jdbc3.JDBC3Connection.createStatement(JDBC3Connection.java:152) ~[sqlite-jdbc-3.36.0.3.jar:?]
 	at repository.ShowRepository.findAll(ShowRepository.java:49) ~[main/:?]
 	at service.ShowService.getAllShows(ShowService.java:22) ~[main/:?]
-	at controller.MainController.loadShowData(MainController.java:48) ~[main/:?]
-	at controller.MainController.setSomething(MainController.java:44) ~[main/:?]
-	at app.MainApp.createScene(MainApp.java:73) ~[main/:?]
-	at app.MainApp.showMainView(MainApp.java:61) ~[main/:?]
-	at controller.LoginController.handleLogin(LoginController.java:26) ~[main/:?]
+	at client.controller.MainController.loadShowData(MainController.java:48) ~[main/:?]
+	at client.controller.MainController.setSomething(MainController.java:44) ~[main/:?]
+	at app.client.MainApp.createScene(client.MainApp.java:73) ~[main/:?]
+	at app.client.MainApp.showMainView(client.MainApp.java:61) ~[main/:?]
+	at client.controller.LoginController.handleLogin(LoginController.java:26) ~[main/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx-base-21-mac-aarch64.jar:?]
@@ -950,35 +950,35 @@ java.sql.SQLException: database connection closed
 25 Mar 2025 00:01:03,741 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 25 Mar 2025 00:01:03,742 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
 25 Mar 2025 00:01:08,948 TRACE repository.EmployeeRepository 45 findAll - Enter
-25 Mar 2025 00:01:08,952 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+25 Mar 2025 00:01:08,952 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 25 Mar 2025 00:01:08,976 TRACE repository.ShowRepository 45 findAll - Enter
 25 Mar 2025 00:01:08,976 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 00:01:08,976 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 00:01:08,976 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 00:01:08,977 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 00:01:08,977 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 00:01:08,979 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
-25 Mar 2025 00:01:45,863 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='iustin', numberOfSeats=10, showId=9, id=null})
+25 Mar 2025 00:01:08,979 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=3, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 00:01:45,863 TRACE repository.TicketRepository 63 save - Enter save(models.Ticket{name='iustin', numberOfSeats=10, showId=9, id=null})
 25 Mar 2025 00:01:45,863 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 00:01:45,864 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 00:01:45,864 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 00:01:45,864 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 00:01:45,865 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 00:01:45,875 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='iustin', numberOfSeats=10, showId=9, id=16})
-25 Mar 2025 00:01:45,875 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9})
+25 Mar 2025 00:01:45,875 TRACE repository.TicketRepository 77 save - Exit with(models.Ticket{name='iustin', numberOfSeats=10, showId=9, id=16})
+25 Mar 2025 00:01:45,875 TRACE repository.ShowRepository 111 update - Enter update(models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9})
 25 Mar 2025 00:01:45,875 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 00:01:45,876 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 00:01:45,876 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 00:01:45,876 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 00:01:45,876 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 00:01:45,878 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9})
+25 Mar 2025 00:01:45,878 TRACE repository.ShowRepository 123 update - Exit with(models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9})
 25 Mar 2025 00:01:46,775 TRACE repository.ShowRepository 45 findAll - Enter
 25 Mar 2025 00:01:46,776 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 00:01:46,776 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 00:01:46,776 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 00:01:46,777 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 00:01:46,777 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 00:01:46,779 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 00:01:46,779 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
 25 Mar 2025 11:29:29,379 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 11:29:30,279 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 11:29:30,280 INFO  utils.Jdbc 30 createNewConnection - user: null
@@ -987,14 +987,14 @@ java.sql.SQLException: database connection closed
 25 Mar 2025 11:29:30,544 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 25 Mar 2025 11:29:30,545 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
 25 Mar 2025 11:29:35,794 TRACE repository.EmployeeRepository 45 findAll - Enter
-25 Mar 2025 11:29:35,814 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+25 Mar 2025 11:29:35,814 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 25 Mar 2025 11:29:36,660 TRACE repository.ShowRepository 45 findAll - Enter
 25 Mar 2025 11:29:36,661 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 11:29:36,661 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 11:29:36,661 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 11:29:36,661 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 11:29:36,661 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 11:29:36,666 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 11:29:36,666 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
 25 Mar 2025 11:36:33,095 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 11:36:33,097 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 11:36:33,097 INFO  utils.Jdbc 30 createNewConnection - user: null
@@ -1003,35 +1003,35 @@ java.sql.SQLException: database connection closed
 25 Mar 2025 11:36:33,432 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 25 Mar 2025 11:36:33,433 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
 25 Mar 2025 11:36:41,084 TRACE repository.EmployeeRepository 45 findAll - Enter
-25 Mar 2025 11:36:41,096 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+25 Mar 2025 11:36:41,096 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 25 Mar 2025 11:36:41,139 TRACE repository.ShowRepository 45 findAll - Enter
 25 Mar 2025 11:36:41,139 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 11:36:41,139 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 11:36:41,140 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 11:36:41,140 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 11:36:41,140 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 11:36:41,143 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
-25 Mar 2025 11:37:30,050 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='alex', numberOfSeats=5, showId=9, id=null})
+25 Mar 2025 11:36:41,143 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=13, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 11:37:30,050 TRACE repository.TicketRepository 63 save - Enter save(models.Ticket{name='alex', numberOfSeats=5, showId=9, id=null})
 25 Mar 2025 11:37:30,051 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 11:37:30,051 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 11:37:30,052 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 11:37:30,052 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 11:37:30,052 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 11:37:30,064 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='alex', numberOfSeats=5, showId=9, id=17})
-25 Mar 2025 11:37:30,065 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9})
+25 Mar 2025 11:37:30,064 TRACE repository.TicketRepository 77 save - Exit with(models.Ticket{name='alex', numberOfSeats=5, showId=9, id=17})
+25 Mar 2025 11:37:30,065 TRACE repository.ShowRepository 111 update - Enter update(models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9})
 25 Mar 2025 11:37:30,065 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 11:37:30,065 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 11:37:30,066 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 11:37:30,066 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 11:37:30,066 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 11:37:30,068 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9})
+25 Mar 2025 11:37:30,068 TRACE repository.ShowRepository 123 update - Exit with(models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9})
 25 Mar 2025 11:37:31,243 TRACE repository.ShowRepository 45 findAll - Enter
 25 Mar 2025 11:37:31,243 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 11:37:31,244 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 11:37:31,244 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 11:37:31,244 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 11:37:31,244 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 11:37:31,246 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 11:37:31,246 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
 25 Mar 2025 18:02:42,435 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 18:02:42,437 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 18:02:42,437 INFO  utils.Jdbc 30 createNewConnection - user: null
@@ -1040,32 +1040,32 @@ java.sql.SQLException: database connection closed
 25 Mar 2025 18:02:42,664 INFO  repository.ShowRepository 18 <init> - Initializing ShowRepository
 25 Mar 2025 18:02:42,665 INFO  repository.TicketRepository 18 <init> - Initializing TicketRepository
 25 Mar 2025 18:02:46,296 TRACE repository.EmployeeRepository 45 findAll - Enter
-25 Mar 2025 18:02:46,306 TRACE repository.EmployeeRepository 57 findAll - Exit with([Employee{username='admin', password='admin', id=2}])
+25 Mar 2025 18:02:46,306 TRACE repository.EmployeeRepository 57 findAll - Exit with([models.Employee{username='admin', password='admin', id=2}])
 25 Mar 2025 18:02:46,349 TRACE repository.ShowRepository 45 findAll - Enter
 25 Mar 2025 18:02:46,350 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 18:02:46,350 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 18:02:46,350 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 18:02:46,350 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 18:02:46,350 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 18:02:46,354 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
-25 Mar 2025 18:02:56,123 TRACE repository.TicketRepository 63 save - Enter save(Ticket{name='3', numberOfSeats=3, showId=9, id=null})
+25 Mar 2025 18:02:46,354 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=18, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 18:02:56,123 TRACE repository.TicketRepository 63 save - Enter save(models.Ticket{name='3', numberOfSeats=3, showId=9, id=null})
 25 Mar 2025 18:02:56,124 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 18:02:56,124 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 18:02:56,124 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 18:02:56,125 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 18:02:56,125 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 18:02:56,134 TRACE repository.TicketRepository 77 save - Exit with(Ticket{name='3', numberOfSeats=3, showId=9, id=18})
-25 Mar 2025 18:02:56,135 TRACE repository.ShowRepository 111 update - Enter update(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=21, id=9})
+25 Mar 2025 18:02:56,134 TRACE repository.TicketRepository 77 save - Exit with(models.Ticket{name='3', numberOfSeats=3, showId=9, id=18})
+25 Mar 2025 18:02:56,135 TRACE repository.ShowRepository 111 update - Enter update(models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=21, id=9})
 25 Mar 2025 18:02:56,135 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 18:02:56,135 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 18:02:56,135 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 18:02:56,135 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 18:02:56,136 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 18:02:56,137 TRACE repository.ShowRepository 123 update - Exit with(Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=21, id=9})
+25 Mar 2025 18:02:56,137 TRACE repository.ShowRepository 123 update - Exit with(models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=21, id=9})
 25 Mar 2025 18:02:56,851 TRACE repository.ShowRepository 45 findAll - Enter
 25 Mar 2025 18:02:56,851 WARN  utils.Jdbc 47 getConnection - Connection was closed, recreating...
 25 Mar 2025 18:02:56,852 TRACE utils.Jdbc 23 createNewConnection - Enter
 25 Mar 2025 18:02:56,852 INFO  utils.Jdbc 29 createNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexbalta/Documents/teme-lab-kerBiy/databases/app.db
 25 Mar 2025 18:02:56,852 INFO  utils.Jdbc 30 createNewConnection - user: null
 25 Mar 2025 18:02:56,852 INFO  utils.Jdbc 31 createNewConnection - pass: null
-25 Mar 2025 18:02:56,854 TRACE repository.ShowRepository 57 findAll - Exit with([Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=21, id=9}, Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])
+25 Mar 2025 18:02:56,854 TRACE repository.ShowRepository 57 findAll - Exit with([models.Show{artist='Coldplay', date=2025-07-01, location='London', totalSeats=500, soldSeats=21, id=9}, models.Show{artist='Imagine Dragons', date=2025-07-03, location='Berlin', totalSeats=300, soldSeats=120, id=10}, models.Show{artist='Adele', date=2025-07-05, location='Paris', totalSeats=400, soldSeats=200, id=11}, models.Show{artist='Ed Sheeran', date=2025-07-08, location='Amsterdam', totalSeats=600, soldSeats=250, id=12}, models.Show{artist='The Weeknd', date=2025-07-10, location='Rome', totalSeats=450, soldSeats=183, id=13}])

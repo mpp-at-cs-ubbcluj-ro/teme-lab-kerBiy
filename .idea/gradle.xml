@@ -36,6 +36,21 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/server-client" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/server-client" />
+            <option value="$PROJECT_DIR$/server-client/client" />
+            <option value="$PROJECT_DIR$/server-client/models" />
+            <option value="$PROJECT_DIR$/server-client/network" />
+            <option value="$PROJECT_DIR$/server-client/persistence" />
+            <option value="$PROJECT_DIR$/server-client/server" />
+            <option value="$PROJECT_DIR$/server-client/services" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
