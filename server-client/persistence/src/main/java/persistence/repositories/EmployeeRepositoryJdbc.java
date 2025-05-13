@@ -3,7 +3,7 @@ package persistence.repositories;
 import models.Employee;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import persistence.IEmployeeRepository;
+import persistence.interfaces.IEmployeeRepository;
 
 import java.sql.*;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package persistence;
+package persistence.interfaces;
 
 import java.util.Optional;
 

@@ -1,15 +1,30 @@
 package models;
 
+import jakarta.persistence.*;
+
 import java.util.Date;
 
+@Entity
+@Table(name = "shows")
 public class Show implements Identifiable<Long> {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", columnDefinition = "INTEGER")
     private Long id;
+
     private String artist;
+
+    @Column(name = "date", columnDefinition = "DATE")
     private Date date;
+
     private String location;
+
     private Integer totalSeats;
     private Integer soldSeats;
 
+    public Show() {
+    }
 
     public Show(String artist, Date date, String location, Integer totalSeats, Integer soldSeats) {
         this.artist = artist;
@@ -21,7 +36,7 @@ public class Show implements Identifiable<Long> {
 
     @Override
     public void setId(Long newId) {
-        id = newId;
+        this.id = newId;
     }
 
     @Override
@@ -71,13 +86,13 @@ public class Show implements Identifiable<Long> {
 
     @Override
     public String toString() {
-        return "models.Show{" +
-                "artist='" + artist + '\'' +
+        return "Show{" +
+                "id=" + id +
+                ", artist='" + artist + '\'' +
                 ", date=" + date +
                 ", location='" + location + '\'' +
                 ", totalSeats=" + totalSeats +
                 ", soldSeats=" + soldSeats +
-                ", id=" + id +
                 '}';
     }
 }

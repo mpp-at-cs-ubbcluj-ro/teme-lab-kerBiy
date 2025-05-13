@@ -3,7 +3,7 @@ package persistence.repositories;
 import models.Show;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import persistence.IShowRepository;
+import persistence.interfaces.IShowRepository;
 
 import java.sql.*;
 import java.util.ArrayList;

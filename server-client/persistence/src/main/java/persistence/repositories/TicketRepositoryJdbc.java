@@ -3,7 +3,7 @@ package persistence.repositories;
 import models.Ticket;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import persistence.ITicketRepository;
+import persistence.interfaces.ITicketRepository;
 
 import java.sql.*;
 import java.util.ArrayList;

@@ -1,9 +1,21 @@
 package models;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "employees")
 public class Employee implements Identifiable<Long> {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", columnDefinition = "INTEGER")
     private Long id;
+
     private String username;
     private String password;
+
+    public Employee() {
+    }
 
     public Employee(String username, String password) {
         this.username = username;
@@ -11,13 +23,13 @@ public class Employee implements Identifiable<Long> {
     }
 
     @Override
-    public void setId(Long newId) {
-        id = newId;
+    public Long getId() {
+        return id;
     }
 
     @Override
-    public Long getId() {
-        return id;
+    public void setId(Long newId) {
+        this.id = newId;
     }
 
     public String getUsername() {
@@ -38,10 +50,6 @@ public class Employee implements Identifiable<Long> {
 
     @Override
     public String toString() {
-        return "models.Employee{" +
-                "username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", id=" + id +
-                '}';
+        return "Employee{id=" + id + ", username='" + username + "', password='" + password + "'}";
     }
 }
