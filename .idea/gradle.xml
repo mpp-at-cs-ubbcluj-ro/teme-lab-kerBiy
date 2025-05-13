@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/TemaLab4" />
+        <option name="gradleJvm" value="21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/TemaLab4" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lab2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/lab2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lab3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/lab3" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/server-client" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/server-client" />
+            <option value="$PROJECT_DIR$/server-client/client" />
+            <option value="$PROJECT_DIR$/server-client/models" />
+            <option value="$PROJECT_DIR$/server-client/network" />
+            <option value="$PROJECT_DIR$/server-client/persistence" />
+            <option value="$PROJECT_DIR$/server-client/server" />
+            <option value="$PROJECT_DIR$/server-client/services" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

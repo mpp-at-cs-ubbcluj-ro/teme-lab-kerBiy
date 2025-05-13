@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:client.controller="controller.MainController">
+    <top>
+        <VBox>
+            <HBox alignment="CENTER_LEFT">
+                <Label text="Logged in as:"/>
+                <Label fx:id="employeeLabel" style="-fx-font-weight: bold"/>
+                <Region fx:id="spacer" HBox.hgrow="ALWAYS"/>
+                <Button text="Logout" onAction="#handleLogout"/>
+            </HBox>
+
+            <HBox alignment="CENTER_LEFT">
+                <Label text="Search by date:"/>
+                <DatePicker fx:id="searchDatePicker"/>
+                <Button text="Search" onAction="#handleSearch"/>
+                <Button text="Clear Search" onAction="#handleClearSearch"/>
+                <Region fx:id="spacer2" HBox.hgrow="ALWAYS"/>
+                <Button text="Sell models.Ticket" onAction="#handleSellTicket"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <TableView fx:id="showTable" prefHeight="400" prefWidth="600">
+            <columns>
+                <TableColumn fx:id="artistColumn" text="Artist"/>
+                <TableColumn fx:id="dateColumn" text="Date"/>
+                <TableColumn fx:id="locationColumn" text="Location"/>
+                <TableColumn fx:id="availableSeatsColumn" text="Available Seats"/>
+                <TableColumn fx:id="soldSeatsColumn" text="Sold Seats"/>
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>

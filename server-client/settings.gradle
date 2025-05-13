@@ -1,0 +1,8 @@
+rootProject.name = 'server-client'
+include 'models'
+include 'persistence'
+include 'services'
+include 'network'
+include 'server'
+include 'client'
+
